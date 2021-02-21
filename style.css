@@ -1,0 +1,90 @@
+html{
+    width: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+}
+
+
+
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #7944e6;
+    position: relative;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    text-align: left;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 0px 0px 4px;
+}
+
+#about {
+    background: #ff00ff;
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#about_title {
+    padding: 0px;
+}
+
+
+
+#food_truck_img {
+    margin: 0 auto;
+    width: 100%;
+    
+    
+}
+
+section {
+    border: solid 4px #7944e6;
+    box-sizing: border-box;
+    margin: 0px auto 40px;
+    width: 100%;
+  
+}
+
+#menus {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+   
+}
+
+.menu_image {
+    width: 100%;
+}
+
+#view_menu_button {
+    text-align: center;
+    padding: 0px;
+    color:#7944e6;
+    background: white;
+    border: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
