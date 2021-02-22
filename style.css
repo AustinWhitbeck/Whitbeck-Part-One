@@ -4,10 +4,7 @@ html{
 
 body{
     font-family: 'Open Sans', sans-serif;
-    min-height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 0 20px;
+    margin: 0px 20px 0px 20px;
 }
 
 
@@ -23,11 +20,22 @@ body{
     position: relative;
 }
 
+.nav_buttons {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    color: #10fdff;
+}
+
+
 ul {
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
     text-align: left;
+    right: 0;
     padding-inline-start: 0;
 }
 
@@ -43,6 +51,7 @@ li {
     text-align: left;
     display: flex;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #about_title {
@@ -50,12 +59,9 @@ li {
 }
 
 
-
 #food_truck_img {
     margin: 0 auto;
-    width: 100%;
-    
-    
+    max-width: 70%;
 }
 
 section {
@@ -78,13 +84,46 @@ section {
     width: 100%;
 }
 
-#view_menu_button {
-    text-align: center;
-    padding: 0px;
-    color:#7944e6;
-    background: white;
-    border: white;
-    font-family: 'Open Sans', sans-serif;
+.view_menu_button {
+    text-decoration: none;
+    color: #7944e6;
+    background:none;
+    border: none;
+    padding: 10px;
+    bottom: 0;
+}
+
+@media screen and (min-width: 768px){
+    #about {
+        background: #ff00ff;
+        margin: 20px 0px 0px 0px;
+        padding: 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #food_truck_img {
+        margin: 5px 250px 5px 0;
+        max-width: 30%;
+    }
+    #menus {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        padding: 20px 0px 0px 0px; 
+
+    }
+    .menu_image {
+        max-width: 60%;
+        margin: 0px 30px;
+    }
+    .menu_boxes {
+        max-width: 20%;
+    }
+
 }
 
 
